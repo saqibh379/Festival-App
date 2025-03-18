@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Data Form</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/Clean-Message-Input-Box-With-Char-Counter.css">
+    <link rel="stylesheet" href="assets/css/Lightswitch.css">
+    <link rel="stylesheet" href="assets/css/Number-Input-Without-Arrow.css">
+    <link rel="stylesheet" href="assets/css/Select-Search.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background: url(&quot;assets/img/Lahore%20Android%20Data%20Form.png&quot;);min-width: 0px;">
+    <section>
+        <div class="container" style="background: rgba(255,255,255,0);">
+            <div style="text-align: center;margin-top: -40px;"></div>
+        </div>
+        <div class="container" style="margin-top: 102px;border-style: none;">
+            <div class="mb-5"
+                style="text-align: center;background: var(--bs-gray-100);margin-bottom: 16px;border: 1px solid var(--bs-orange);border-radius: 11px;">
+                <div>
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3"
+                            style="border-radius: 7px;margin-top: -31px;background: var(--bs-white);box-shadow: 0px 0px 0px 0px rgba(110,120,129,0.5);border: 1px solid var(--bs-orange);">
+                            <img class="img-fluid" src="assets/img/star%20png.png" style="transform: scale(0.90);">
+                        </div>
+                    </div>
+                </div>
+                <form style="margin-top: 18px;">
+                    <div style="text-align: left;padding: 18px;">
+                        <div class="row mt-3" style="margin-top: 24px;">
+                            <div class="col"><label class="form-label">City</label><select class="form-select">
+                                    <option value="12" selected="">Lahore</option>
+                                    <option value="13">Islamabad</option>
+                                </select></div>
+                        </div>
+                        <div class="row" style="margin-top: 18px;">
+                            <div class="col"><label class="form-label">Full Name</label><input class="form-control"
+                                    type="text" style="font-size: 14px;"></div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col"><label class="form-label">Contact Number</label><input class="form-control"
+                                    type="number" placeholder="Phone Number" style="font-size: 14px;"></div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col"><label class="form-label">Gender</label>
+                                <div>
+                                    <div class="form-check form-check-inline"><input class="form-check-input"
+                                            type="radio" id="male" value="Male" name="gender"><label
+                                            class="form-check-label" for="formCheck-1">Male</label></div>
+                                    <div class="form-check form-check-inline"><input class="form-check-input"
+                                            type="radio" id="female" value="Female" name="gender"><label
+                                            class="form-check-label" for="formCheck-2">Female</label></div>
+                                    <div class="form-check form-check-inline"><input class="form-check-input"
+                                            type="radio" id="other" value="Other" name="gender"><label
+                                            class="form-check-label" for="formCheck-3">Other</label></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col"><label class="form-label">Age</label><select class="form-select">
+                                    <option value="12" selected="">15-20</option>
+                                    <option value="13">21-30</option>
+                                    <option value="14">31-45</option>
+                                    <option value="">45+</option>
+                                </select></div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col"><label class="form-label" style="width: 100%;">Have you ever shopped from
+                                    Imtiaz Store?</label>
+                                <div>
+                                    <div class="form-check form-check-inline"><input class="form-check-input"
+                                            type="radio" id="store-yes" value="yes" name="store"><label
+                                            class="form-check-label" for="formCheck-4">Yes</label></div>
+                                    <div class="form-check form-check-inline"><input class="form-check-input"
+                                            type="radio" id="store-no" value="no" name="store"><label
+                                            class="form-check-label" for="formCheck-5">No</label></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <!-- <div class="row mt-3" style="margin-bottom: 12px;">
+                            <div class="col"><label class="form-label" style="width: 100%;">Sampling
+                                    Product</label><select class="form-select chosen" required=""
+                                    style="color: #232323;width: 100%;height: 44px;">
+                                    <option value="12">Classic Coffee</option>
+                                    <option value="">Imtiaz Pineapple</option>
+                                    <option value="">Imtiaz Tropicle Fruit Cocktail</option>
+                                    <option value="">Olive Oil</option>
+                                    <optgroup label="Basil Seed Drink">
+                                        <option value="">BSD-Blueberry</option>
+                                        <option value="">BSD-Lychee</option>
+                                        <option value="Orange">BSD-Mango</option>
+                                        <option value="">BSD-Pinnapple</option>
+                                        <option value="">BSD-WhiteGrape</option>
+                                        <option value="">BSD-Pomegranate</option>
+                                        <option value="">Strawberry</option>
+                                        <option value="">Cocktail</option>
+                                        <option value="">Honey</option>
+                                        <option value="">Kiwi</option>
+                                    </optgroup>
+                                    <optgroup label="Falooda Drink">
+                                        <option value="">FD-Almond</option>
+                                        <option value="">FD-Strawberry</option>
+                                        <option value="">FD-Vanila</option>
+                                        <option value="">FD-Rose</option>
+                                        <option value="">FD-Mango</option>
+                                        <option value="">FD-Pistachio</option>
+                                        <option value="">FD-Butterscotch</option>
+                                        <option value="">FD-Chocolate</option>
+                                        <option value="">FD-Banana</option>
+                                        <option value="">FD-Melon</option>
+                                    </optgroup>
+                                    <optgroup label="Coconut Milk Flavoured Drink">
+                                        <option value="">CMFD-Original</option>
+                                        <option value="">CMFD-Banana</option>
+                                        <option value="">CMFD-Chocolate</option>
+                                        <option value="">CMFD-Mango</option>
+                                        <option value="">CMFD-Melon</option>
+                                        <option value="">CMFD-Rose</option>
+                                        <option value="">CMFD-Coffee</option>
+                                        <option value="">Coconut Juice With Pulp</option>
+                                        <option value="">CMFD-Strawberry</option>
+                                    </optgroup>
+                                    <optgroup label="Nata De Coco Drink">
+                                        <option value="">NDCD-Lychee</option>
+                                        <option value="">NDCD-Coconut</option>
+                                        <option value="">NDCD-Peach</option>
+                                        <option value="">NDCD-Orange</option>
+                                        <option value="">Coconut Milk Drink</option>
+                                        <option value="">NDCD-Mango</option>
+                                        <option value="">NDCD-Grape</option>
+                                        <option value="">NDCD-Pineapple</option>
+                                        <option value="">NDCD-Strawberry</option>
+                                        <option value="">Coconut Water</option>
+                                    </optgroup>
+                                    <optgroup label="Imtiaz Peanut Butter">
+                                        <option value="">IPB-Creamy</option>
+                                        <option value="">IPB-Crunchy</option>
+                                    </optgroup>
+                                    <optgroup label="Potato Crisps">
+                                        <option value="">PC-Original</option>
+                                        <option value="">PC-Hot &amp; Spicy</option>
+                                        <option value="">PC-Cheese</option>
+                                        <option value="">PC-Barbecue</option>
+                                    </optgroup>
+                                    <optgroup label="Brios Sauce">
+                                        <option value="">BS-Hot Sauce</option>
+                                        <option value="">BS-BBQ Sauce Original</option>
+                                        <option value="">BS-BBQ Sauce Honey</option>
+                                        <option value="">BS-BBQ Sauce Hickory</option>
+                                        <option value="">BS-Thousand Island</option>
+                                        <option value="">BS-Island</option>
+                                    </optgroup>
+                                </select></div>
+                        </div> -->
+
+
+
+
+
+
+<!-- Parent Select -->
+
+
+                        <div class="row mt-3">
+                            
+                              
+                                    <div class="mb-3">
+                                        <label for="parentSelect" class="form-label">Sampling Product</label>
+                                        <select id="parentSelect" class="form-select">
+                                          <option value="" selected disabled>Select Product</option>
+                                          <option value="basil">Basil Seed Drink</option>
+                                          <option value="falooda">Falooda Drink</option>
+                                          <option value="cocunut">Coconut Milk Flavoured Drink</option>
+                                          <option value="potato">Potato Crisps</option>
+                                          <option value="nata">Nata De Coco Drink</option>
+                                          <option value="imtiaz">Imtiaz Peanut Butter</option>
+                                          <option value="brios">Brios Sauce</option>
+
+
+                                          <option value="coffee_classic">Coffee Classic</option>
+                                          <option value="imtiaz_pineapple">Imtiaz Pineapple</option>
+                                          <option value="imtiaz_tropical">Imtiaz Tropicle Fruit Cocktail</option>
+                                          <option value="coconut_juice">Coconut Juice With Pulp
+                                        </option>
+                                          <option value="coconut_milk">Coconut Milk Drink
+                                        </option>
+                                          <option value="coconut_water">Coconut Water
+                                        </option>
+                                        <option value="olive_oil">Olive Oil
+
+                                        </option>
+                                        </select>
+                                      </div>
+                                      
+                                      <div class="mb-3">
+                                        <label for="childSelect" class="form-label">Category</label>
+                                        <select id="childSelect" class="form-select">
+                                          <option value="" selected disabled>Select Category</option>
+                                        </select>
+                                      </div>
+
+
+                            </div>
+                        </div>
+
+
+
+
+<!-- parent select end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Registered> <div class="form-group">
+  <label for=""></label>
+  <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+  <small id="emailHelpId" class="form-text text-muted">Help text</small>
+</div></Registered>
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="row mt-3">
+                            <div class="col"><label class="form-label" style="width: 100%;">How would you rate
+                                    it?</label>
+                                <div>
+                                    <div class="form-check form-check-inline"><input class="form-check-input"
+                                            type="radio" id="good" value="not good"><label class="form-check-label"
+                                            for="formCheck-6">Not Good</label></div>
+                                    <div class="form-check form-check-inline"><input class="form-check-input"
+                                            type="radio" id="neuteral" value="neutral"><label class="form-check-label"
+                                            for="formCheck-7">Neutral</label></div>
+                                    <div class="form-check form-check-inline"><input class="form-check-input"
+                                            type="radio" id="excellent" value="excellent"><label
+                                            class="form-check-label" for="formCheck-8">Excellent</label></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3 mb-5">
+                            <div class="col-12 text-center mt-3" style="font-weight: bold;"><button
+                                    class="btn btn-primary fw-normal" type="button"
+                                    style="font-family: Poppins, sans-serif;font-size: 16px;width: 291.7812px;">Submit</button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
+    <script src="assets/js/Lightswitch.js"></script>
+    <script src="assets/js/Select-Search-Search-Select-V1.js"></script>
+
+    <script>
+        // JavaScript logic for dynamically updating child options
+        const childOptions = {
+            basil: [
+                { value: 'blueberry', text: 'Blueberry' },
+                { value: 'lychee', text: 'Lychee' },
+                { value: 'mango', text: 'Mango' },
+                { value: 'orange', text: 'Orange' },
+                { value: 'pinnapple', text: 'Pinnapple' },
+                { value: 'whitegrape', text: 'Whitegrape' },
+                { value: 'pomegranate', text: 'Pomegranate' },
+                { value: 'strawberry', text: 'Strawberry' },
+                { value: 'cocktail', text: 'Cocktail' },
+                { value: 'honey', text: 'Honey' },
+                { value: 'kiwi', text: 'Kiwi' },
+                { value: 'lemon', text: 'Lemon' },
+                { value: 'orange', text: 'Orange' },
+                { value: 'pineapple', text: 'Pineapple' },
+                { value: 'strawberry', text: 'Strawberry' },
+                { value: 'watermelon', text: 'Watermelon' }
+            ],
+            falooda: [
+                { value: 'almond', text: 'Almond' },
+                { value: 'strawberry', text: 'Strawberry' },
+                { value: 'vanila', text: 'Vanila' },
+                { value: 'rose', text: 'Rose' },
+                { value: 'mango', text: 'Mango' },
+                { value: 'pistachio', text: 'Pistachio' },
+                { value: 'butterscotch', text: 'Butterscotch' },
+                { value: 'chocolate', text: 'Chocolate' },
+                { value: 'banana', text: 'Banana' },
+                { value: 'melon', text: 'Melon' }
+                
+            ],
+
+            coconut: [
+                { value: 'original', text: 'Original' },
+                { value: 'banana', text: 'Banana' },
+                { value: 'chocolate', text: 'Chocolate' },
+                { value: 'mango', text: 'Mango' },
+                { value: 'melon', text: 'Melon' },
+                { value: 'rose', text: 'Rose' },
+                { value: 'coffee', text: 'Coffee' },
+                { value: 'coconut juice with pulp', text: 'Coconut Juice With Pulp' },
+                { value: 'strawberry', text: 'Strawberry' }
+                
+            ],
+
+
+            nata: [
+                { value: 'lychee', text: 'Lychee' },
+                { value: 'coconut', text: 'Coconut' },
+                { value: 'peach', text: 'Peach' },
+                { value: 'orange', text: 'Orange' },
+                { value: 'mango', text: 'Mango' },
+                { value: 'grape', text: 'Grape' },
+                { value: 'pineapple', text: 'Pineapple' },
+                { value: 'strawberry', text: 'Strawberry' }
+          
+            ],
+
+
+
+
+            imtiaz: [
+                { value: 'creamy', text: 'Creamy' },
+                { value: 'crunchy', text: 'Crunchy' }
+            
+          
+            ],
+
+            potato: [
+                { value: 'original', text: 'Original' },
+                { value: 'hot & spicy', text: 'Hot & Spicy' },
+                { value: 'cheese', text: 'Cheese' },
+                { value: 'barbecue', text: 'Barbecue' }
+
+            ],
+
+
+            brios: [
+                { value: 'hot sauce', text: 'Hot Sauce' },
+                { value: 'bbq sauce original', text: 'BBQ Sauce Original' },
+                { value: 'bbq sauce honey', text: 'BBQ Sauce Honey' },
+                { value: 'bbq sauce hickory', text: 'BBQ Sauce Hickory' },
+                { value: 'thousand island', text: 'Thousand Island' },
+                { value: 'island', text: 'Island' }
+              
+
+            ],
+
+            coffee_classic: [
+                {value:'coffee-classic', text:'Coffee Classic'}
+            ],
+
+            imtiaz_pineapple: [
+                {value:'imtiaz-pineapple', text:'Imtiaz Pineapple'}
+            ],
+
+            imtiaz_tropical: [
+                {value:'imtiaz-tropicle-fruit-cocktail', text:'Imtiaz Tropicle Fruit Cocktail'}
+            ],
+
+            coconut_juice: [
+                {value:'coconut-juice', text:'Coconut Juice'}],
+
+            coconut_milk: [
+                {value:'coconut-milk', text:'Coconut Milk'}],
+
+            coconut_water:[
+                    {value:'coconut-water', text:'Coconut Water'}],
+
+            olive_oil:[
+                {value:'olive-oil', text:'Olive Oil'}],
+
+
+
+
+        };
+
+        const parentSelect = document.getElementById('parentSelect');
+        const childSelect = document.getElementById('childSelect');
+
+        parentSelect.addEventListener('change', function () {
+            const selectedParent = this.value;
+
+            // Clear previous child options
+            childSelect.innerHTML = '<option value="" selected disabled>Select Category</option>';
+
+            if (selectedParent && childOptions[selectedParent]) {
+                childOptions[selectedParent].forEach(child => {
+                    const option = document.createElement('option');
+                    option.value = child.value;
+                    option.textContent = child.text;
+                    childSelect.appendChild(option);
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
